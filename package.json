@@ -1,0 +1,28 @@
+{
+  "name": "helloname",
+  "version": "0.0.5",
+  "description": "Says hello to whatever",
+  "bin": {
+    "helloname": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrerpena/helloname.git"
+  },
+  "keywords": [
+    "hello",
+    "test"
+  ],
+  "author": "Andre Pena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrerpena/helloname/issues"
+  },
+  "homepage": "https://github.com/andrerpena/helloname#readme",
+  "dependencies": {
+    "vorpal": "^1.11.2"
+  }
+}
