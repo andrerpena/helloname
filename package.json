@@ -1,9 +1,10 @@
 {
   "name": "helloname",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Says hello to whatever",
+  "preferGlobal": true,
   "bin": {
-    "helloname": "index.js"
+    "helloname": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +24,15 @@
   },
   "homepage": "https://github.com/andrerpena/helloname#readme",
   "dependencies": {
+    "underscore": "^1.8.3",
     "vorpal": "^1.11.2"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "mocha": "^2.5.3"
   }
 }
